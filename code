@@ -7,10 +7,12 @@ int main()
     int WT=0,TA=0;
     float AWT,ATA;
     char pn[10][10],t[10];
-    //Asking user for number of processes
+    
+ 
     printf("Enter the number of process:");
     scanf("%d",&n);
-    //Asking user to enter process details
+  
+  
     for(i=0;i<n;i++)
     {
         printf("Enter ProcessName :");
@@ -23,7 +25,8 @@ int main()
         scanf("%d",&p[i]);
         printf("\n");
     }
-    //Swapping processes according to priority
+    
+
     for(i=0;i<n;i++)
         for(j=0;j<n;j++)
         {
